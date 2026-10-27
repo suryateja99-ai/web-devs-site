@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suryateja99-ai.github.io/web-devs-site/sitemap.xml
