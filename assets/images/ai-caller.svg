@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" role="img" aria-label="AI voice call illustration">
+<style>
+.ring{fill:none;stroke:#2563eb;stroke-width:2;opacity:0;transform-origin:150px 200px;animation:r 2.4s ease-out infinite}
+.ring.b{animation-delay:.8s}.ring.c{animation-delay:1.6s}
+@keyframes r{0%{transform:scale(.6);opacity:.5}100%{transform:scale(1.6);opacity:0}}
+.bar{fill:#2563eb;transform-box:fill-box;transform-origin:center;animation:w 1.1s ease-in-out infinite}
+@keyframes w{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}
+.dot{fill:#94a3b8;animation:d 1.2s infinite}.d2{animation-delay:.2s}.d3{animation-delay:.4s}
+@keyframes d{0%,100%{opacity:.3}50%{opacity:1}}
+.phone{animation:s 3s ease-in-out infinite;transform-origin:150px 200px}
+@keyframes s{0%,100%{transform:rotate(0)}5%{transform:rotate(-6deg)}10%{transform:rotate(6deg)}15%{transform:rotate(0)}}
+</style>
+<rect width="480" height="400" rx="24" fill="#f1f5f9"/>
+<circle class="ring" cx="150" cy="200" r="70"/><circle class="ring b" cx="150" cy="200" r="70"/><circle class="ring c" cx="150" cy="200" r="70"/>
+<g class="phone"><rect x="105" y="120" width="90" height="160" rx="16" fill="#fff" stroke="#0f172a" stroke-width="3"/>
+<circle cx="150" cy="185" r="22" fill="#dbeafe"/><text x="150" y="191" font-family="sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#2563eb">AI</text>
+<text x="150" y="228" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#334155">Calling…</text>
+<circle cx="150" cy="255" r="11" fill="#16a34a"/></g>
+<rect x="250" y="110" width="200" height="86" rx="14" fill="#fff" stroke="#e2e8f0"/>
+<text x="266" y="134" font-family="sans-serif" font-size="11" fill="#64748b">AI voice · live</text>
+<g transform="translate(266,148)">
+<rect class="bar" x="0" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.15s" x="12" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.3s" x="24" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.45s" x="36" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.6s" x="48" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.75s" x="60" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.9s" x="72" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.2s" x="84" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.5s" x="96" y="0" width="6" height="34" rx="3"/><rect class="bar" style="animation-delay:.1s" x="108" y="0" width="6" height="34" rx="3"/></g>
+<rect x="250" y="216" width="200" height="74" rx="14" fill="#fff" stroke="#e2e8f0"/>
+<text x="266" y="242" font-family="sans-serif" font-size="12" fill="#0f172a">Lead: "Site visit Saturday?"</text>
+<circle class="dot" cx="272" cy="268" r="4"/><circle class="dot d2" cx="286" cy="268" r="4"/><circle class="dot d3" cx="300" cy="268" r="4"/>
+<text x="250" y="330" font-family="sans-serif" font-size="12" fill="#16a34a">✓ Interested · callback booked</text>
+</svg>
