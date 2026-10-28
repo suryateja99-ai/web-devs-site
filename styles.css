@@ -650,3 +650,7 @@ ul { list-style: none; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+.contact-list{list-style:none;padding:0;margin:12px 0;display:grid;gap:6px;font-size:.95rem}
+.contact-list a{display:inline}
+.footer-links{font-size:.85rem;margin-top:4px}
+.footer-links a{color:inherit;text-decoration:underline}
