@@ -1,0 +1,10 @@
+Photos from Unsplash (https://unsplash.com/license) — free to use commercially.
+- hero.jpg — laptop / code workspace
+- work-1.jpg — analytics laptop
+- work-2.jpg — smartphone
+- work-3.jpg — design / wireframes
+- work-4.jpg — office discussion
+- why.jpg — team collaboration
+- service-web.jpg — web design desk
+- service-app.jpg — mobile app
+- contact.jpg — office interior
