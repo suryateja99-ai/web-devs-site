@@ -654,3 +654,6 @@ ul { list-style: none; }
 .contact-list a{display:inline}
 .footer-links{font-size:.85rem;margin-top:4px}
 .footer-links a{color:inherit;text-decoration:underline}
+.faq{border-bottom:1px solid #e5e7eb;padding:14px 0}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{margin:8px 0 0;color:#475569}
